@@ -5,7 +5,7 @@ const instancia = new Sequelize(
     config.get('mysql.usuario'),
     config.get('mysql.senha'),
     {
-      host: config.get('mysql.banco-de-dados'),
+      host: config.get('mysql.host'),
       dialect: 'mysql'
     }
   )
